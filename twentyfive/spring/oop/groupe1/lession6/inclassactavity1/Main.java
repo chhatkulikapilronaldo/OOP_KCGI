@@ -30,6 +30,7 @@ public class Main {
         // Create books
         Book book1 = new Book("Java Programming", "BK");
         Book book2 = new Book("MunaMadhan", "Laxami Prasad");
+        Book book3 = new Book("Python", " Prasad");
 
         // Create a  library user
         LibraryUser user = new LibraryUser("Kapil Chhatkuli");
@@ -49,6 +50,12 @@ public class Main {
         // Return first book
         book1.returnBook();
         book1.displayInfo();
+        System.out.println( Book.getTotalCount());
+        System.out.println( Book.getTotalBorrowedCount());
+        System.out.println(Book.getTotalAvabibleCount());
+
+
+
 
     }
 }
