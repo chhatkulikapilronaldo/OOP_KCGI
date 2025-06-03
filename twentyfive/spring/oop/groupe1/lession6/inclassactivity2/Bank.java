@@ -13,7 +13,7 @@ public class Bank {
     public static void main(String[] args) {
         // Create customers
         Customer customer1 = new Customer("Chhatkuli Kapil", "C001");
-        Customer customer2 = new Customer("Savindu Sandaruwan", "C002");
+        Customer customer2 = new Customer("ram", "C002");
 
         // Create accounts
         BankAccount account1 = new BankAccount("A001", 1000000, customer1, 50000);
