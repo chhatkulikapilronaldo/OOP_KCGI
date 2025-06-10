@@ -1,4 +1,4 @@
-package twentyfive.spring.oop.group1.lesson7.inheritance_example;
+package twentyfive.spring.oop.groupe1.lession7.classdiscuse;
 
 public class CarApp {
     public static void main(String[] args) {
