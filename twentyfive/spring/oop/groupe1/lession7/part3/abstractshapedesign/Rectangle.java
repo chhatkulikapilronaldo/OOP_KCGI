@@ -1,5 +1,5 @@
 package twentyfive.spring.oop.groupe1.lession7.part3.abstractshapedesign;
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
     private double length;
     private double width;
 
@@ -9,13 +9,11 @@ public class Rectangle extends Shape {
         this.width = width;
     }
 
-    // Override calculateArea
     @Override
     public double calculateArea() {
         return length * width;
     }
 
-    // Override calculatePerimeter
     @Override
     public double calculatePerimeter() {
         return 2 * (length + width);

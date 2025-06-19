@@ -1,4 +1,4 @@
-package twentyfive.spring.oop.group1.lesson7.example_of_not_putting_classes_next_to_each_other;
+package twentyfive.spring.oop.groupe1.lession7.part3.polimer;
 
 public class Test {
     // class inside the class is "okay"
