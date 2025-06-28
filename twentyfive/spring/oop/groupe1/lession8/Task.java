@@ -1,4 +1,4 @@
-package twentyfive.spring.oop.group1.lesson10.sample;
+package twentyfive.spring.oop.groupe1.lession8;
 
 public class Task {
     private String author;

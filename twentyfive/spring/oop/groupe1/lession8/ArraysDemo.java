@@ -1,4 +1,4 @@
-package twentyfive.spring.oop.group1.lesson10;
+package twentyfive.spring.oop.groupe1.lession8;
 
 public class ArraysDemo {
     public static void main(String[] args) {
